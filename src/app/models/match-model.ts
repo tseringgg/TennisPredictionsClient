@@ -1,0 +1,21 @@
+export interface Match {
+    id: number,
+    tny_id: string,
+    tny_name: string,
+    surface: string,
+    draw_size: number,
+    tny_date: Date,
+    match_num: string,
+    score: string,
+    best_of: number,
+    is_gs: true,
+    match_year: number,
+    match_month: string,
+    winner: true,
+    p0_name: string,
+    p1_name: string,
+    p0_elo_538: number,
+    p1_elo_538: number,
+    p0_sf_elo_538: number,
+    p1_sf_elo_538: number
+}
